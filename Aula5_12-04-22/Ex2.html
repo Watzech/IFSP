@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title >
+            Formulário
+        </title>
+    </head>
+
+    <body style="background-color: blueviolet; color: white; padding: 50px;">
+        
+        <form id="form_teste" name="form1" method="POST">
+            <fieldset style="width: 400px;">
+                <legend style="font-size: 30px;"><b>ROR2</b></legend>
+                <fieldset>
+                    <legend><b>Personal Info</b></legend>
+                        <p><label>Name: </label>
+                        <input type="text" name="name" required></p>
+                        <p><label>Password: </label>
+                        <input type="password" name="pswrd" required></p>
+                </fieldset>
+
+                <fieldset>
+                        <legend><b>In-Game Info</b></legend>
+                            <p>
+                                <label>Class: </label>
+                                <select>
+                                    <option>Commando</option>
+                                    <option>Huntress</option>
+                                    <option>Bandit</option>
+                                    <option>MUL-T</option>
+                                    <option>Engineer</option>
+                                    <option>Acrid</option>
+                                    <option>Railgunner</option>
+                                    <option>Loader</option>
+                                    <option>V?oid Fie??nd</option>
+                                    <option>The Heretic</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>Starting supply: </label>
+                                <select>
+                                    <optgroup label="Artifact">
+                                        <option>Dissonance</option>
+                                        <option>Chaos</option>
+                                        <option>Sacrifice</option>
+                                        <option>Doppelganger</option>
+                                        <option>Spite</option>
+                                    </optgroup>
+                                    <optgroup label="Item">
+                                        <option>Soldier's Syringe</option>
+                                        <option>Focus Crystal</option>
+                                        <option>Warbanner (Why?)</option>
+                                        <option>Bungus</option>
+                                        <option>Paul's Goat Hoof</option>
+                                    </optgroup>
+                                </select>
+                            </p>
+
+                            <p>
+                                <input type="radio" name="dif" id="drizzle">
+                                <label for="drizzle">Drizzle</label>
+                                <input type="radio" name="dif" id="rainstorm">
+                                <label for="rainstorm">Rainstorm</label>
+                                <input type="radio" name="dif" id="monsoon">
+                                <label for="monsoon">Monsoon</label>
+                            </p>
+
+                            <p>
+                                <label>Starting money:</label>
+                                <input type="number">
+                            </p>
+
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Send" style="font-size: 25px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    <br>
+                </fieldset>
+        </form>
+
+    </body>
+</html>
